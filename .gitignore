@@ -1,0 +1,20 @@
+## .NET
+bin/
+obj/
+*.user
+
+## Bancos de dados locais (SQLite)
+*.db
+*.db-shm
+*.db-wal
+
+## Logs
+logs/
+
+## Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+
+## Resultados de teste
+TestResults/

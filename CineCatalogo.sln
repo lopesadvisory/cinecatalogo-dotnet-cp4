@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{FEBF7249-ADCF-40E9-B2DA-C6CE11813A28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Domain", "src\CineCatalogo.Domain\CineCatalogo.Domain.csproj", "{178B56CB-F147-4B8D-A9AC-211977EC6606}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Application", "src\CineCatalogo.Application\CineCatalogo.Application.csproj", "{40F34078-C87E-4C8E-93B3-FF0A9B865658}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Infrastructure", "src\CineCatalogo.Infrastructure\CineCatalogo.Infrastructure.csproj", "{E946C10D-44C3-4E3B-BAAB-6C17948799AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Api", "src\CineCatalogo.Api\CineCatalogo.Api.csproj", "{E1498A6B-4265-4644-9F4E-AF48BF99909F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{9A8FFB48-BD60-442C-938C-859A14780C7C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Tests.Unit", "tests\CineCatalogo.Tests.Unit\CineCatalogo.Tests.Unit.csproj", "{D18E8959-A502-4E57-9B0D-AB8D4B311596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CineCatalogo.Tests.Integration", "tests\CineCatalogo.Tests.Integration\CineCatalogo.Tests.Integration.csproj", "{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{178B56CB-F147-4B8D-A9AC-211977EC6606}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{178B56CB-F147-4B8D-A9AC-211977EC6606}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{178B56CB-F147-4B8D-A9AC-211977EC6606}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{178B56CB-F147-4B8D-A9AC-211977EC6606}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F34078-C87E-4C8E-93B3-FF0A9B865658}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F34078-C87E-4C8E-93B3-FF0A9B865658}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F34078-C87E-4C8E-93B3-FF0A9B865658}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F34078-C87E-4C8E-93B3-FF0A9B865658}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E946C10D-44C3-4E3B-BAAB-6C17948799AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E946C10D-44C3-4E3B-BAAB-6C17948799AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E946C10D-44C3-4E3B-BAAB-6C17948799AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E946C10D-44C3-4E3B-BAAB-6C17948799AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1498A6B-4265-4644-9F4E-AF48BF99909F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1498A6B-4265-4644-9F4E-AF48BF99909F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1498A6B-4265-4644-9F4E-AF48BF99909F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1498A6B-4265-4644-9F4E-AF48BF99909F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D18E8959-A502-4E57-9B0D-AB8D4B311596}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D18E8959-A502-4E57-9B0D-AB8D4B311596}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D18E8959-A502-4E57-9B0D-AB8D4B311596}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D18E8959-A502-4E57-9B0D-AB8D4B311596}.Release|Any CPU.Build.0 = Release|Any CPU
+		{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{178B56CB-F147-4B8D-A9AC-211977EC6606} = {FEBF7249-ADCF-40E9-B2DA-C6CE11813A28}
+		{40F34078-C87E-4C8E-93B3-FF0A9B865658} = {FEBF7249-ADCF-40E9-B2DA-C6CE11813A28}
+		{E946C10D-44C3-4E3B-BAAB-6C17948799AE} = {FEBF7249-ADCF-40E9-B2DA-C6CE11813A28}
+		{E1498A6B-4265-4644-9F4E-AF48BF99909F} = {FEBF7249-ADCF-40E9-B2DA-C6CE11813A28}
+		{D18E8959-A502-4E57-9B0D-AB8D4B311596} = {9A8FFB48-BD60-442C-938C-859A14780C7C}
+		{037679A5-EEB2-41D1-B7C7-56B0E6F05AB1} = {9A8FFB48-BD60-442C-938C-859A14780C7C}
+	EndGlobalSection
+EndGlobal
